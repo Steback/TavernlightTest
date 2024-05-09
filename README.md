@@ -64,6 +64,7 @@ void Game::addItemToPlayer(const std::string& recipient, uint16_t itemId)
     }
 }
 ```
+## Q5-Q7
 ### Q5 - Replicate
 ![Q5](documentation/Question5.gif)
 
@@ -72,3 +73,10 @@ void Game::addItemToPlayer(const std::string& recipient, uint16_t itemId)
 
 ### Q7 - Replicate
 ![Q7](documentation/Question7.gif)
+
+## Dependencies 
+| Name                                             | Version | Licence                                                              |
+|--------------------------------------------------|---------|----------------------------------------------------------------------|
+| [TFS](https://github.com/otland/forgottenserver) | 1.4.2   | [GNU](https://github.com/otland/forgottenserver/blob/master/LICENSE) |
+| [OTC](https://github.com/edubart/otclient)       | 0.6.6   | [MIT](https://github.com/edubart/otclient/blob/master/LICENSE)       |
+
