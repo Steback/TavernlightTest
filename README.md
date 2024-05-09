@@ -1,4 +1,4 @@
-# TavernLight Games Test
+# Tavernlight Games Test
 ## Q1-Q2
 ### Q1 - Fix or improve the implementation of the below methods
 ```
