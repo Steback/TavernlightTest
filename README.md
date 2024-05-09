@@ -15,7 +15,7 @@ end
 
 ```
 
-Q2 - Fix or improve the implementation of the below method
+### Q2 - Fix or improve the implementation of the below method
 ```
 function printSmallGuildNames(memberCount)
     -- this method is supposed to print names of all guilds that have less than memberCount max members
@@ -26,7 +26,7 @@ function printSmallGuildNames(memberCount)
 end
 ```
 
-Q3 - Fix or improve the name and the implementation of the below method
+### Q3 - Fix or improve the name and the implementation of the below method
 ```
 function do_sth_with_PlayerParty(playerId, membername)
     player = Player(playerId)
@@ -40,7 +40,7 @@ function do_sth_with_PlayerParty(playerId, membername)
 end
 ```
 
-Q4 - Assume all method calls work fine. Fix the memory leak issue in below method
+### Q4 - Assume all method calls work fine. Fix the memory leak issue in below method
 ```
 void Game::addItemToPlayer(const std::string& recipient, uint16_t itemId)
 {
@@ -64,3 +64,11 @@ void Game::addItemToPlayer(const std::string& recipient, uint16_t itemId)
     }
 }
 ```
+### Q5 - Replicate
+![Q5](documentation/Question5.gif)
+
+### Q6 - Replicate
+![Q6](documentation/Question6.gif)
+
+### Q7 - Replicate
+![Q7](documentation/Question7.gif)
