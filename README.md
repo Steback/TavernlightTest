@@ -25,6 +25,7 @@ function printSmallGuildNames(memberCount)
     print(guildName)
 end
 ```
+#### Solution: [q2.lua](scripts/q2.lua)
 
 ### Q3 - Fix or improve the name and the implementation of the below method
 ```
