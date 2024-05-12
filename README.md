@@ -12,8 +12,8 @@ function onLogout(player)
     end
     return true
 end
-
 ```
+#### Solution: [q1.lua](scripts/q1.lua)
 
 ### Q2 - Fix or improve the implementation of the below method
 ```
