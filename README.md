@@ -66,6 +66,8 @@ void Game::addItemToPlayer(const std::string& recipient, uint16_t itemId)
     }
 }
 ```
+#### Solution: [q4.cpp](source/q4.cpp)
+
 ## Q5-Q7
 ### Q5 - Replicate
 ![Q5](documentation/Question5.gif)
