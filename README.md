@@ -1,5 +1,5 @@
 # Tavernlight Games Test
-## Q1-Q2
+## Q1-Q4
 ### Q1 - Fix or improve the implementation of the below methods
 ```
 local function releaseStorage(player)
@@ -40,6 +40,7 @@ function do_sth_with_PlayerParty(playerId, membername)
     end
 end
 ```
+#### Solution: [q3.lua](scripts/q3.lua)
 
 ### Q4 - Assume all method calls work fine. Fix the memory leak issue in below method
 ```
