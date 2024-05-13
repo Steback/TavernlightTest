@@ -13,7 +13,7 @@ function onLogout(player)
     return true
 end
 ```
-#### Solution: [q1.lua](scripts/q1.lua)
+#### Solution: [q1.lua](scripts/q1.lua) [[#1](https://github.com/Steback/TavernlightTest/pull/1)]
 
 ### Q2 - Fix or improve the implementation of the below method
 ```
@@ -25,7 +25,7 @@ function printSmallGuildNames(memberCount)
     print(guildName)
 end
 ```
-#### Solution: [q2.lua](scripts/q2.lua)
+#### Solution: [q2.lua](scripts/q2.lua) [[#1](https://github.com/Steback/TavernlightTest/pull/1)]
 
 ### Q3 - Fix or improve the name and the implementation of the below method
 ```
@@ -40,7 +40,7 @@ function do_sth_with_PlayerParty(playerId, membername)
     end
 end
 ```
-#### Solution: [q3.lua](scripts/q3.lua)
+#### Solution: [q3.lua](scripts/q3.lua) [[#1](https://github.com/Steback/TavernlightTest/pull/1)]
 
 ### Q4 - Assume all method calls work fine. Fix the memory leak issue in below method
 ```
@@ -66,7 +66,7 @@ void Game::addItemToPlayer(const std::string& recipient, uint16_t itemId)
     }
 }
 ```
-#### Solution: [q4.cpp](source/q4.cpp)
+#### Solution: [q4.cpp](source/q4.cpp) [[#1](https://github.com/Steback/TavernlightTest/pull/1)]
 
 ## Q5-Q7
 ### Q5 - Replicate
