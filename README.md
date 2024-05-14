@@ -72,6 +72,12 @@ void Game::addItemToPlayer(const std::string& recipient, uint16_t itemId)
 ### Q5 - Replicate
 ![Q5](documentation/Question5.gif)
 
+#### Solution
+For use this spell is needed to copy the `data` directory in TFS and copy it in the root directory of the forgottenserver(TFS).
+* **script**: [q5.lua](TFS/data/spells/scripts/attack/q5.lua)
+
+For this solution I read the wiki in the [forgottenserver(TFS)](https://github.com/otland/forgottenserver/wiki) Github page, but isn't complete and not very specific about how to do things. So I decided to read spells already included in the game that are located in `forgottenserver/data/spells/` directory and used then as a reference.
+
 ### Q6 - Replicate
 ![Q6](documentation/Question6.gif)
 
@@ -84,3 +90,4 @@ void Game::addItemToPlayer(const std::string& recipient, uint16_t itemId)
 | [TFS](https://github.com/otland/forgottenserver) | 1.4.2   | [GNU](https://github.com/otland/forgottenserver/blob/master/LICENSE) |
 | [OTC](https://github.com/edubart/otclient)       | 0.6.6   | [MIT](https://github.com/edubart/otclient/blob/master/LICENSE)       |
 
+For the setup of TFS and decided to use the binaries(I work using linux, so I chose the ubuntu version) files located the [1.4.2](https://github.com/otland/forgottenserver/releases/tag/v1.4.2) release page and configurate the database. For OTC I decided to locally clone the repository and compile it.
