@@ -53,7 +53,7 @@ for i = 1, numRounds do
         local index = (i - 1) * numPhases + j
         combats[index] = Combat()
         combats[index]:setParameter(COMBAT_PARAM_TYPE, COMBAT_ICEDAMAGE)
-        combats[index]:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_ICETORNADO)
+        combats[index]:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_ICETORNADO) -- I get this from eternal_winter.lua script
         combats[index]:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
         combats[index]:setArea(createCombatArea(areas[j]))
     end
