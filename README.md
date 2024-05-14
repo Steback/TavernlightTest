@@ -72,11 +72,13 @@ void Game::addItemToPlayer(const std::string& recipient, uint16_t itemId)
 ### Q5 - Replicate
 ![Q5](documentation/Question5.gif)
 
-#### Solution
-For use this spell is needed to copy the `data` directory in TFS and copy it in the root directory of the forgottenserver(TFS).
+#### Solution [[#2](https://github.com/Steback/TavernlightTest/pull/2)]
+For use this spell is needed to copy the `data` directory located in `TFS` to the root directory of the forgottenserver(TFS).
 * **script**: [q5.lua](TFS/data/spells/scripts/attack/q5.lua)
 
 For this solution I read the wiki in the [forgottenserver(TFS)](https://github.com/otland/forgottenserver/wiki) Github page, but isn't complete and not very specific about how to do things. So I decided to read spells already included in the game that are located in `forgottenserver/data/spells/` directory and used then as a reference.
+
+![Q5 Solution](documentation/Question5_Solution.gif)
 
 ### Q6 - Replicate
 ![Q6](documentation/Question6.gif)
