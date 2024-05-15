@@ -86,6 +86,15 @@ For this solution I read the wiki in the [forgottenserver(TFS)](https://github.c
 ### Q7 - Replicate
 ![Q7](documentation/Question7.gif)
 
+#### Solution [[#3](https://github.com/Steback/TavernlightTest/pull/3)]
+
+For access to the panel is needed to copy the `modules` directory inside of `OTC` to the root directory of the otclient(OTC).
+* **script**: [q7.lua](OTC/modules/game_q7/q7.lua)
+
+Similar to Q5, I read the documentation, and again the documentation wasn't complete so, I decided to search on internet and the OTC source code about how to create a new window, widgets and how to access to its properties.
+
+![Q7 Solution](documentation/Question7_Solution.gif)
+
 ## Dependencies 
 | Name                                             | Version | Licence                                                              |
 |--------------------------------------------------|---------|----------------------------------------------------------------------|

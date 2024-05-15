@@ -59,7 +59,8 @@ function update()
 
         -- Check if button is outside window
         local buttonHeight = button:getHeight()
-        if buttonPos.x - buttonHeight < windowPos.x or buttonPos.y - buttonHeight < windowPos.y then
+        local windowWidth = window:getWidth()
+        if buttonPos.x - buttonHeight < windowPos.x or buttonPos.y + buttonHeight > windowPos.y + windowWidth then
             reset()
         else
             button:setPosition(buttonPos)
