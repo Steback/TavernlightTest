@@ -1,0 +1,9 @@
+Module
+  name: game_q7
+  description: Q7 jump minigame
+  author: None
+  website: None
+  sandboxed: true
+  scripts: [ q7.lua ]
+  @onLoad: init()
+  @onUnload: terminate()

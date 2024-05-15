@@ -1,0 +1,10 @@
+MainWindow
+  id: jumpMinigame
+  size: 550 400
+  @onEscape: toggle()
+
+  Button
+    id: jumpButton
+    !text: tr('Jump')
+    width: 64
+    @onClick: onButtonPressed()
